@@ -1,0 +1,23 @@
+LIBRARY REXXAPI
+
+EXPORTS
+  RexxRegisterSubcomDll   @6
+  RexxRegisterSubcomExe   @7
+  RexxQuerySubcom         @8
+  RexxDeregisterSubcom    @9
+  RexxRegisterExitDll     @11
+  RexxRegisterExitExe     @12
+  RexxDeregisterExit      @13
+  RexxQueryExit           @14
+  RexxRegisterFunctionDll @17
+  RexxRegisterFunctionExe @18
+  RexxDeregisterFunction  @19
+  RexxQueryFunction       @20
+  RexxAddMacro            @22
+  RexxDropMacro           @23
+  RexxClearMacroSpace     @24
+  RexxLoadMacroSpace      @25
+  RexxQueryMacro          @26
+  RexxReorderMacro        @27
+  RexxSaveMacroSpace      @28
+

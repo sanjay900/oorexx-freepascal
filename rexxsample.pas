@@ -77,7 +77,7 @@ end;
 
 { ============================================================================= }
 
-Function rexxwebversion( Name  : PChar;
+Function rexxversion( Name  : PChar;
                      ArgC      : ULong;
                      Args      : pRxString;
                      QueueName : pChar;
@@ -88,8 +88,8 @@ begin
   dummy := 'REXXSample v0.1 build 1';
   Move (dummy^,Ret.StrPtr^,strlen(dummy));
   Ret.strLength := strlen( Ret.StrPtr );
-  rexxwebversion := 0;
+  rexxversion := 0;
 end;
 exports
-   callrexx,rexxwebversion;
+   callrexx,rexxversion;
 end.
